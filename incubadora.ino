@@ -75,11 +75,11 @@ void loop() {
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Temp: ");
-    lcd.print(tempActual, 1);  // Muestra la temperatura con 1 decimal
+    lcd.print(tempActual);  // Muestra la temperatura
     lcd.print("C");
     lcd.setCursor(0, 1);
     lcd.print("Hum: ");
-    lcd.print(humedadActual, 1);  // Muestra la humedad con 1 decimal
+    lcd.print(humedadActual);  // Muestra la humedad
     lcd.print("%");
 
     // Enviar los datos a la computadora
